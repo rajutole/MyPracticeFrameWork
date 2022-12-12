@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 197.442 s <<< FAILURE! - in TestSuite
+awesomecucumber.runners.MyTestNGRunnerTest.runScenario["using default payment option", "Place an order"](2)  Time elapsed: 114.978 s  <<< FAILURE!
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+
+awesomecucumber.runners.MyTestNGRunnerTest.tearDownClass  Time elapsed: 196.327 s  <<< FAILURE!
+java.lang.RuntimeException: java.net.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Caused by: java.net.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Caused by: java.net.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+

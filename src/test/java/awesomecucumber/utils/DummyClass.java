@@ -11,5 +11,6 @@ public class DummyClass {
 
         }
         System.out.println("Reverse string is "+rev);
+        System.out.println("Test scmPOll");
     }
 }
